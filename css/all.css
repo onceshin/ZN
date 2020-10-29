@@ -52,16 +52,22 @@ table {
     height: 87vh;
     background: #000;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .logo img{
-    width: 10%;
+    width: 20%;
 }
 
 .logo img:hover{
     width: 30%;
+}
+
+.logo h2{
+    color: #808080;
+    font-size: 32px;
 }
 
 .header{
