@@ -65,16 +65,39 @@ table {
 }
 
 .header{
+    height: 10vh;
     display: flex;
     justify-content: space-between;
-    margin: 1%;
+    background: #808080;
+    padding: 1%;
 }
 
 .header img{
-    width: 5%;
+    width: 6%;
 }
 
 .header ul{
+    width: 16%;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    margin: 2%;
+}
+
+.header li{
+  text-align: center;
+  margin: 0 2%;
+}
+
+.header a{
+    text-decoration: none;
+    display: block;
+    padding: 2% 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: 	#dcdcdc;
+}
+
+.header a:hover{
+    color: darkslategrey;
 }
