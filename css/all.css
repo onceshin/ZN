@@ -49,7 +49,7 @@ table {
 
 .logo{
     width: 100vw;
-    height: 86vh;
+    height: 90vh;
     background: #000;
     display: flex;
     flex-direction: column;
@@ -72,11 +72,12 @@ table {
 
 .header{
     width: 98vw;
-    height: 10vh;
+    height: 6vh;
     display: flex;
     justify-content: space-between;
     background: #808080;
     padding: 1%;
+    position: fixed;
 }
 
 .header img{
@@ -88,7 +89,7 @@ table {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 2%;
+    margin: 1%;
 }
 
 .header li{
@@ -99,7 +100,7 @@ table {
 .header a{
     text-decoration: none;
     display: block;
-    padding: 2% 0;
+    padding: 1% 0;
     font-size: 20px;
     font-weight: bold;
     color: 	#dcdcdc;
